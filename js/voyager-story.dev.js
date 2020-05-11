@@ -66541,7 +66541,7 @@ https://3d.si.edu
 https://github.com/smithsonian/dpo-voyager
 
 -----------------------------------------------------
-Version: ${"Voyager Story v0.8.1.1-17-g4752d2e  DEV"}
+Version: ${"Voyager Story v0.8.1.1-9-g490aa8d  DEV"}
 -----------------------------------------------------
     `;
 window["VoyagerExplorer"] = ExplorerApplication;
