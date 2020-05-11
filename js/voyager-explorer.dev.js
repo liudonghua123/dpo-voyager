@@ -33069,7 +33069,7 @@ https://3d.si.edu
 https://github.com/smithsonian/dpo-voyager
 
 -----------------------------------------------------
-Version: ${"Voyager Explorer v0.8.1.1-16-g39515f1  DEV"}
+Version: ${"Voyager Explorer v0.8.1.1-17-g4752d2e  DEV"}
 -----------------------------------------------------
     `;
 window["VoyagerExplorer"] = ExplorerApplication;
