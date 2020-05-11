@@ -16,10 +16,13 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [12.x]
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: 'recursive'
+    - run: git fetch --prune --unshallow
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
@@ -27,12 +30,13 @@ jobs:
 
     - name: Install prerequisites
       run: |
-        npm ci
+        yarn
 
     - name: Build
       run: |
-        npm run build-dev --if-present
-        npm run build-prod --if-present
+        cp .env.template .env
+        yarn build-dev
+        yarn build-prod
 
     - name: Prepare assets
       run: |
