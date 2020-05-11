@@ -1,0 +1,315 @@
+{
+    "asset": {
+        "type": "application/si-dpo-3d.document+json",
+        "version": "1.0",
+        "generator": "Voyager",
+        "copyright": "(c) Smithsonian Institution. All rights reserved."
+    },
+    "scene": 0,
+    "scenes": [{
+        "units": "cm",
+        "name": "Scene",
+        "nodes": [0, 1, 6],
+        "meta": 0,
+        "setup": 0
+    }],
+    "nodes": [{
+        "translation": [31.4816577, 15.173977, -26.4668653],
+        "rotation": [-0.0514121, 0.9146711, 0.1232652, 0.3814961],
+        "name": "Camera",
+        "camera": 0
+    }, {
+        "rotation": [0, 0.9229396, 0, 0.3849448],
+        "name": "Lights",
+        "children": [2, 3, 4, 5]
+    }, {
+        "translation": [-6.7, 17.3, 13.5],
+        "rotation": [0.4829741, -0.1070728, 0.1880998, 0.8484633],
+        "scale": [1, 1, 1],
+        "name": "Key",
+        "light": 0
+    }, {
+        "translation": [10.7, 21.9, 5.9],
+        "rotation": [0.3546969, 0.163893, -0.3861077, 0.8356136],
+        "name": "Fill #1",
+        "light": 1
+    }, {
+        "translation": [0, 0, 1],
+        "rotation": [0.9374013, -0.3018693, 0.0532277, 0.1652891],
+        "name": "Fill #2",
+        "light": 2
+    }, {
+        "translation": [1, 0, -1],
+        "rotation": [0.373256, 0.6426073, -0.5786063, 0.3360813],
+        "scale": [1, 1, 1],
+        "name": "Rim",
+        "light": 3
+    }, {
+        "name": "Ritual Ewer",
+        "children": [7, 8]
+    }, {
+        "name": "ewer-base",
+        "model": 0
+    }, {
+        "name": "ewer-lid",
+        "model": 1
+    }],
+    "cameras": [{
+        "type": "perspective",
+        "perspective": {
+            "yfov": 52,
+            "znear": 0.1,
+            "zfar": 100000
+        }
+    }],
+    "lights": [{
+        "color": [1, 0.95, 0.9],
+        "intensity": 1,
+        "type": "directional",
+        "shadowEnabled": true
+    }, {
+        "color": [0.9, 0.95, 1],
+        "intensity": 0.7,
+        "type": "directional",
+        "shadowEnabled": true
+    }, {
+        "color": [0.8, 0.85, 1],
+        "intensity": 0.5,
+        "type": "directional"
+    }, {
+        "color": [0.85, 0.9078313, 1],
+        "intensity": 0.6,
+        "type": "directional"
+    }],
+    "models": [{
+        "units": "m",
+        "translation": [-0.0068643, -0.1113052, -0.0059471],
+        "rotation": [-0.6916592, 0.0028844, 0.0401613, 0.7211008],
+        "boundingBox": {
+            "min": [-0.1291466, -0.0712992, -0.0052821],
+            "max": [0.1579365, 0.0575221, 0.2147851]
+        },
+        "derivatives": [{
+            "usage": "Web3D",
+            "quality": "Thumb",
+            "assets": [{
+                "uri": "ewer-base-20k-512-thumb.glb",
+                "type": "Model",
+                "byteSize": 184868,
+                "numFaces": 20000,
+                "imageSize": 512
+            }]
+        }, {
+            "usage": "Web3D",
+            "quality": "High",
+            "assets": [{
+                "uri": "ewer-base-200k-4096-high.glb",
+                "type": "Model",
+                "byteSize": 7685912,
+                "numFaces": 200000,
+                "imageSize": 4096
+            }]
+        }, {
+            "usage": "Web3D",
+            "quality": "Medium",
+            "assets": [{
+                "uri": "ewer-base-200k-2048-medium.glb",
+                "type": "Model",
+                "byteSize": 3092824,
+                "numFaces": 200000,
+                "imageSize": 2048
+            }]
+        }, {
+            "usage": "Web3D",
+            "quality": "Low",
+            "assets": [{
+                "uri": "ewer-base-200k-1024-low.glb",
+                "type": "Model",
+                "byteSize": 1307220,
+                "numFaces": 200000,
+                "imageSize": 1024
+            }]
+        }, {
+            "usage": "Web3D",
+            "quality": "Highest",
+            "assets": [{
+                "uri": "ewer-base-500k-8192-highest.glb",
+                "type": "Model",
+                "byteSize": 22144412,
+                "numFaces": 500000,
+                "imageSize": 8192
+            }]
+        }],
+        "annotations": [{
+            "id": "xTIAKmfhgI3i",
+            "title": "New Annotation",
+            "position": [0.0728951, 0.0548266, -0.0221905],
+            "direction": [0.2303807, -0.2739667, -0.9337382],
+            "scale": 0.005,
+            "color": [0, 0.61, 0.87]
+        }, {
+            "id": "pw5AUfe9bTvE",
+            "title": "New Annotation",
+            "position": [-0.0578982, -0.094343, -0.0439593],
+            "direction": [-0.3555165, 0.2907439, -0.8882995],
+            "scale": 0.01,
+            "color": [0, 0.61, 0.87]
+        }]
+    }, {
+        "units": "m",
+        "translation": [-0.0052518, -0.111603, -0.0074676],
+        "rotation": [-0.6916641, -0.0019973, 0.0452056, 0.7208004],
+        "boundingBox": {
+            "min": [-0.0644735, -0.0742982, 0.165146],
+            "max": [0.19623, 0.0690453, 0.3119916]
+        },
+        "derivatives": [{
+            "usage": "Web3D",
+            "quality": "Thumb",
+            "assets": [{
+                "uri": "ewer-lid-20k-512-thumb.glb",
+                "type": "Model",
+                "byteSize": 182732,
+                "numFaces": 20000,
+                "imageSize": 512
+            }]
+        }, {
+            "usage": "Web3D",
+            "quality": "High",
+            "assets": [{
+                "uri": "ewer-lid-200k-4096-high.glb",
+                "type": "Model",
+                "byteSize": 6344980,
+                "numFaces": 200000,
+                "imageSize": 4096
+            }]
+        }, {
+            "usage": "Web3D",
+            "quality": "Medium",
+            "assets": [{
+                "uri": "ewer-lid-200k-2048-medium.glb",
+                "type": "Model",
+                "byteSize": 2894068,
+                "numFaces": 200000,
+                "imageSize": 2048
+            }]
+        }, {
+            "usage": "Web3D",
+            "quality": "Low",
+            "assets": [{
+                "uri": "ewer-lid-200k-1024-low.glb",
+                "type": "Model",
+                "byteSize": 1281392,
+                "numFaces": 200000,
+                "imageSize": 1024
+            }]
+        }, {
+            "usage": "Web3D",
+            "quality": "Highest",
+            "assets": [{
+                "uri": "ewer-lid-500k-8192-highest.glb",
+                "type": "Model",
+                "byteSize": 17880608,
+                "numFaces": 500000,
+                "imageSize": 8192
+            }]
+        }],
+        "annotations": [{
+            "id": "JN980uepjMqe",
+            "title": "New Annotation",
+            "position": [0.0334308, 0.1007407, -0.0195134],
+            "direction": [-0.2965849, -0.1158623, -0.9479522],
+            "scale": 0.01,
+            "color": [0, 0.61, 0.87]
+        }]
+    }],
+    "metas": [{
+        "images": [{
+            "uri": "ewer.svx.jsonimage-thumb.jpg",
+            "quality": "Thumb",
+            "byteSize": 15351,
+            "width": 320,
+            "height": 320
+        }, {
+            "uri": "ewer.svx.jsonimage-low.jpg",
+            "quality": "Low",
+            "byteSize": 49059,
+            "width": 640,
+            "height": 640
+        }, {
+            "uri": "ewer.svx.jsonimage-medium.jpg",
+            "quality": "Medium",
+            "byteSize": 164532,
+            "width": 1280,
+            "height": 1280
+        }, {
+            "uri": "ewer.svx.jsonimage-high.jpg",
+            "quality": "High",
+            "byteSize": 558216,
+            "width": 2560,
+            "height": 2560
+        }]
+    }],
+    "setups": [{
+        "interface": {
+            "visible": true,
+            "logo": true,
+            "menu": true,
+            "tools": true
+        },
+        "reader": {
+            "enabled": false,
+            "position": "Overlay"
+        },
+        "viewer": {
+            "shader": "Default",
+            "exposure": 1,
+            "gamma": 1
+        },
+        "navigation": {
+            "enabled": true,
+            "autoZoom": true,
+            "autoRotation": false,
+            "lightsFollowCamera": true,
+            "type": "Orbit",
+            "orbit": {
+                "orbit": [-15.3503938, 134.7193783, 0],
+                "offset": [-3.3452619, 3.7810115, 43.5471295],
+                "minOrbit": [-90, null, null],
+                "maxOrbit": [90, null, null],
+                "minOffset": [null, null, 0.1],
+                "maxOffset": [null, null, 10000]
+            }
+        },
+        "background": {
+            "style": "RadialGradient",
+            "color0": [1, 0.9656627, 0.925],
+            "color1": [0.6024096, 0.5851721, 0.564759]
+        },
+        "floor": {
+            "visible": true,
+            "position": [0, -11.03, 0],
+            "size": 75,
+            "color": [0.2831325, 0.2499156, 0.2158886],
+            "opacity": 0.3269231,
+            "receiveShadow": false
+        },
+        "grid": {
+            "visible": false,
+            "color": [0.5, 0.7, 0.8]
+        },
+        "tape": {
+            "enabled": false,
+            "startPosition": [0, 0, 0],
+            "startDirection": [0, 0, 0],
+            "endPosition": [0, 0, 0],
+            "endDirection": [0, 0, 0]
+        },
+        "slicer": {
+            "enabled": false,
+            "axis": "X",
+            "position": 0.5,
+            "inverted": false
+        }
+    }]
+}
